@@ -1,0 +1,609 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jComboBox1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jCheckBox1"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox1" noResource="true"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="formComponentHidden"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="cb1" alignment="0" min="-2" max="-2" attributes="1"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="cb9" alignment="0" max="32767" attributes="1"/>
+                          <Component id="cb5" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cb10" max="32767" attributes="1"/>
+                                  <Component id="cb6" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="cb2" alignment="0" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cb11" max="32767" attributes="1"/>
+                                  <Component id="cb7" max="32767" attributes="1"/>
+                                  <Component id="cb3" alignment="0" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="cb12" max="32767" attributes="1"/>
+                                      <Component id="cb8" alignment="0" min="-2" max="-2" attributes="1"/>
+                                  </Group>
+                                  <Component id="cb4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="41" max="32767" attributes="0"/>
+              </Group>
+              <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cb1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cb2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cb3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cb4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cb8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cb5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cb6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cb7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cb12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cb10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cb9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cb11" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ckb2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ckb1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ckb4" alignment="0" min="-2" pref="340" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="ckb3" alignment="0" max="32767" attributes="1"/>
+                              <Component id="ckb5" alignment="0" max="32767" attributes="1"/>
+                              <Component id="ckb6" alignment="0" max="32767" attributes="1"/>
+                          </Group>
+                          <Component id="ckb7" alignment="0" min="-2" pref="282" max="-2" attributes="0"/>
+                          <Component id="ckb8" alignment="0" min="-2" pref="333" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="16" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ckb1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="ckb2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="ckb3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ckb4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ckb5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="ckb6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="ckb7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ckb8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="50" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="ckb1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="O Primeiro do Lado direito usa T&#xea;nis Ecko"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="ckb1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="ckb2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="O que usa camisa verde usa nike"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="ckb2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="ckb3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Quem tem computador Dell est&#xe1; do lado esquerdo de quem usa Qix"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="ckb3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="ckb4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="O que tem um iMac fica vizinho do que tem camisa preta"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="ckb4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="ckb5">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Eudes usa computador iMac"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="ckb5" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="ckb6">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Quem est&#xe1; com a camisa Branca est&#xe1;  lado direiro de quem usa nike"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="ckb6" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="ckb7">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Douglas usa Adidas"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="ckb7" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="ckb8">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Que usa IBM est&#xe1; do Lado de que tem camisa Azul"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="ckb8" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JComboBox" name="cb4">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Verde"/>
+                <StringItem index="2" value="Azul"/>
+                <StringItem index="3" value="Preta"/>
+                <StringItem index="4" value="Branca"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb4" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb8">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Nike"/>
+                <StringItem index="2" value="Qix"/>
+                <StringItem index="3" value="Ecko"/>
+                <StringItem index="4" value="Adidas"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb8" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb8ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb12">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Vaio"/>
+                <StringItem index="2" value="iMac"/>
+                <StringItem index="3" value="Dell"/>
+                <StringItem index="4" value="IBM"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb12" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb12ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Lairton"/>
+            <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Lucemir"/>
+            <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb3">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Verde"/>
+                <StringItem index="2" value="Azul"/>
+                <StringItem index="3" value="Preta"/>
+                <StringItem index="4" value="Branca"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb3" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb7">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Nike"/>
+                <StringItem index="2" value="Qix"/>
+                <StringItem index="3" value="Ecko"/>
+                <StringItem index="4" value="Adidas"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb7" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb7ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb11">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Vaio"/>
+                <StringItem index="2" value="iMac"/>
+                <StringItem index="3" value="Dell"/>
+                <StringItem index="4" value="IBM"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb11" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb11ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb10">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Vaio"/>
+                <StringItem index="2" value="iMac"/>
+                <StringItem index="3" value="Dell"/>
+                <StringItem index="4" value="IBM"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb10" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb10ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb6">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Nike"/>
+                <StringItem index="2" value="Qix"/>
+                <StringItem index="3" value="Ecko"/>
+                <StringItem index="4" value="Adidas"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb6" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb6ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Verde"/>
+                <StringItem index="2" value="Azul"/>
+                <StringItem index="3" value="Preta"/>
+                <StringItem index="4" value="Branca"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb2" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Eudes"/>
+            <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Douglas"/>
+            <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Verde"/>
+                <StringItem index="2" value="Azul"/>
+                <StringItem index="3" value="Preta"/>
+                <StringItem index="4" value="Branca"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb1" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb5">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Nike"/>
+                <StringItem index="2" value="Qix"/>
+                <StringItem index="3" value="Ecko"/>
+                <StringItem index="4" value="Adidas"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb5" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb5ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cb9">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Vaio"/>
+                <StringItem index="2" value="iMac"/>
+                <StringItem index="3" value="Dell"/>
+                <StringItem index="4" value="IBM"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cb9" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cb9ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Computador"/>
+            <Property name="name" type="java.lang.String" value="jLabel7" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="T&#xea;nis"/>
+            <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Camisa"/>
+            <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Teste de QI"/>
+            <Property name="name" type="java.lang.String" value="jLabel8" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
